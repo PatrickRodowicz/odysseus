@@ -1,0 +1,2 @@
+FROM searxng/searxng:latest
+COPY config/searxng/settings.yml /etc/searxng/settings.yml
